@@ -143,3 +143,105 @@ hr {
   color: #333333;
   margin-top: 5px;
 }
+
+#turismo > article {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#turismo {
+  padding-bottom: 5px;
+}
+
+#turismo > article {
+  position: relative;
+  display: block;
+  height: 180px;
+  width: 90%;
+}
+
+#imagem4 {
+  position: absolute;
+  background: black url('../imagens/marrocos.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+#noticia4 {
+  display: block;
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+#noticia4 > h2 {
+  font: normal 300 1em var(--tituloprincipal);
+  text-transform: uppercase;
+  color: #606060;
+}
+
+#noticia4 > h3 {
+  font: normal 400 1.2em var(--tituloprincipal);
+  color: #333333;
+  margin-top: 5px;
+}
+
+#imagem5 {
+  background: black url('../imagens/suica.jpg') center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  float: left;
+}
+
+#noticia5 {
+  display: block;
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+#noticia5 > h2 {
+  font: normal 300 1em var(--tituloprincipal);
+  text-transform: uppercase;
+  color: #606060;
+}
+
+#noticia5 > h3 {
+  font: normal 400 1.2em var(--tituloprincipal);
+  margin-top: 5px;
+  color: #333333;
+}
+
+#imagem6 {
+  position: absolute;
+  background: black url('../imagens/canada.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  float: left;
+  border-radius: 10px;
+}
+
+#noticia6 {
+  display: block;
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+#noticia6 > h2 {
+  font: normal 300 1em var(--tituloprincipal);
+  text-transform: uppercase;
+  color: #606060;
+}
+
+#noticia6 > h3 {
+  font: normal 400 1.2em var(--tituloprincipal);
+  margin-top: 5px;
+  color: #333333;
+}
