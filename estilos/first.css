@@ -245,3 +245,24 @@ hr {
   margin-top: 5px;
   color: #333333;
 }
+
+#whats {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+#whats:hover {
+  width: 90px;
+  height: 90px;
+  transition-duration: .3s;
+}
+
+#whats:active {
+  width: 70px;
+  height: 70px;
+  transition-duration: .1s;
+}

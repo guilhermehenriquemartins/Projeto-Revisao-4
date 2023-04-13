@@ -104,7 +104,6 @@ Grandes telas: acima de 1200px
 
   #turismo > article {
     width: 30%;
-    border: 1px solid black;
   }
 
   #imagem4 {
@@ -139,6 +138,24 @@ Grandes telas: acima de 1200px
     top: 3%;
     left: 0;
   }
+
+  #noticia4 > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  #noticia5 > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  #noticia6 > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -153,7 +170,7 @@ Grandes telas: acima de 1200px
   #esportes > article {
     width: 32%;
     height: 150px;
-    margin: 20px 5px;
+    margin: 30px 5px;
   }
 
   hr {
@@ -216,25 +233,68 @@ Grandes telas: acima de 1200px
     font-size: 1em;
     font-weight: 500;
   }
-}
-
-#whats {
-  width: 80px;
-  height: 80px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  cursor: pointer;
-}
-
-#whats:hover {
-  width: 90px;
-  height: 90px;
-  transition-duration: .3s;
-}
-
-#whats:active {
-  width: 70px;
-  height: 70px;
-  transition-duration: .1s;
+  
+  #turismo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+  }
+  
+  #turismo > article {
+    width: 32%;
+    height: 150px;
+  }
+  
+  #imagem4 {
+    height: 80%;
+    bottom: 0;
+  }
+  
+  #noticia4 > h2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+  
+  #noticia4 > h3 {
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  
+  #imagem5 {
+    height: 80%;
+    bottom: 0;
+  }
+  
+  #noticia5 > h2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+  
+  #noticia5 > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  #imagem6 {
+    height: 80%;
+    bottom: 0;
+  }
+  
+  #noticia6 > h2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+  
+  #noticia6 > h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+  }
 }
